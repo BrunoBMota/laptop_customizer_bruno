@@ -52,7 +52,7 @@ function Features(props) {
 
 class Form extends Component{
   
-  defaultProps = {
+  static defaultProps = {
     selected: {},
     features: {}
   }

@@ -6,7 +6,7 @@ const USCurrencyFormat = new Intl.NumberFormat('en-US', {
 });
 
 class MainSummary extends Component{
-  defaultProps = {
+  static defaultProps = {
     selected: {},
     features: {}
   }
