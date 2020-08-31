@@ -2,7 +2,7 @@
   "name": "laptop-customizer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://github.com/BrunoBMota/laptop_customizer_bruno",
+  "homepage": "http://brunobmota.github.io/laptop_customizer_bruno/",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -11,11 +11,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
